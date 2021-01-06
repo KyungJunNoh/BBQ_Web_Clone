@@ -1,0 +1,166 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+
+   v2.0 | 20110126
+
+   License: none (public domain)
+
+*/
+*{margin: 0;
+
+    padding: 0;
+
+    border: 0;
+
+    font-size: 100%;
+
+    font: inherit;
+
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+
+footer, header, hgroup, menu, nav, section {
+
+    display: block;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    line-height: 1;
+
+}
+#body_parser {
+    width: 748px;
+    margin: 0 auto;
+}
+
+ol, ul {
+
+    list-style: none;
+
+}
+
+blockquote, q {
+
+    quotes: none;
+
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+
+    content: '';
+
+    content: none;
+
+}
+
+table {
+
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+/*============================================================*/
+header{
+    position:fixed;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+#padding{
+    padding:80px;
+    width: 748px;
+    margin: 0 auto;
+    text-align:center;
+}
+#sheet{
+    margin-top:30px;
+    padding-bottom:30px;
+    border-bottom:1px solid black;
+}
+#Information{
+    
+    margin-top : 40px;
+    margin-bottom: 30px;
+}
+.address{
+    margin-bottom:30px;
+}
+
+.main2{
+    width: 110px;
+    margin-top:10px;
+    margin-left: 910px;
+}
+.s_menu{
+    text-align:center;
+}
+
+.cart2{     
+    margin-left: 720px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size:40px;
+}
+h2{
+    font-size:35px;
+}
+
+.menu{
+    border-top : 1px black solid;
+    text-align: center;
+}
+.menu_txt{
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.menu1{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:50px;
+}
+.menu2{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:50px;
+}
+input[type="text"]{
+    border:1px solid black;
+    padding:3px;
+    border-radius: 5px;
+}
+
+.button{
+    background-color: blue;
+
+    border: none;
+
+    color: white;
+
+    padding: 15px 30px;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    display: inline-block;
+
+    font-size: 16px;
+
+    margin: 4px 2px;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+}
